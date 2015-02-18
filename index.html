@@ -1,1 +1,138 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Ursula Sarracini</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/Style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div id="name">
+                <a href="">
+                    <p><b>URSULA</b>SARRACINI</p>
+                </a>
+            </div>
+            <ul id="navbar">
+                <li><a href="#">BLOG</a>
+                </li>
+                <li><a href="#">PROJECTS</a>
+                </li>
+                <li><a href="#">CONTACT</a>
+                </li>
+            </ul>
+            <img src="line.png" height="1px" width="100%" style="float:left">
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div id="subtext">
+          <p> <i class="fa fa-terminal"></i> &nbsp;Sometimes I write code that does cool things. I build interactive applications and do headstands in my spare time.</p>
+        </div>
+        <div id="icons">
+            <a href="https://twitter.com/ursulasarracini"><i class="fa fa-twitter-square fa-3x"></i></a>
+            <a href="https://github.com/sarracini"><i class="fa fa-github-square fa-3x"></i></a>
+            <a href="https://ca.linkedin.com/pub/ursula-sarracini/a3/b45/405/en"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a href="mailto:ursulasarracini@gmail.com"><i class="fa fa-envelope-square fa-3x"></i></a>
+        </div>
+
+        <!--Posts-->
+        <div class="container">
+            <section id="posts" class="posts-section">
+
+                <div class="padding"></div>
+               <a class="black" href=""> <div id="post">
+                    <p id="title">  From AutoCAD to Oculus - January 06 2015</p></div></a>
+                <a class="black" href=""><div id="post">
+                   <p id="title">  Basics of Code Workshop - December 02 2014</p></div></a>
+               <a class="black" href=""> <div id="post">
+                   <p id="title"> San Francisco, CA - August 26 2014</p></div></a>
+              <a class="black" href="">  <div id="post">
+                  <p id="title"> Hello, World! - August 26 2014</p></div></a>
+               <a class="black" href=""> <div id="post">
+                  <p id="title">  title of post 1 -- dd/mm/yyyy</p></div></a>
+                </ul>
+                <a href="" class="page-scroll"><i class="fa fa-angle-double-down fa-4x"></i></a>
+                <a href="" class="page-scroll"><i class="fa fa-angle-double-up fa-4x"></i></a>
+
+            </section>
+            <!--/Posts-->
+            <a href="">
+                <p id="older"><i class="fa fa-angle-double-left"></i> OLDER POSTS</p>
+            </a>
+
+        </div>
+        <!-- /container -->
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <!-- Scrolling Nav JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+
+        <!-- Custom Javascript by yours truly -->
+        <script>
+            $(document).ready(function () {
+                $(".fa-angle-double-up").hide();
+            });
+        </script>
+        <script>
+            $(function () {
+                $(document).on("mousewheel", function () {
+                    if ($(document).scrollTop() > 300) {
+                        $('.fa-angle-double-down').fadeOut();
+                        $('.fa-angle-double-up').fadeIn();
+                    } else {
+                        $('.fa-angle-double-down').fadeIn();
+                        $('.fa-angle-double-up').fadeOut();
+                    };
+                });
+            });
+        </script>
+    <script>
+       var speed = 50;
+       var boxElement = document.getElementById("post");
+        if (boxElement){
+            boxElement.addEventListener("mouseover", function(){
+                var boxLeft = boxElement.offsetLeft, 
+                    boxRight = boxLeft + boxElement.offsetWidth;
+                boxElement.style.left = (boxLeft + speed) + 'px';
+            });
+        }
+    </script>
+
+</body>
+
+</html>
