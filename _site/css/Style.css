@@ -48,15 +48,6 @@ a:hover, a:active{
     text-decoration: none;
     color:#BF788B;
 }
-.intro-section {
-    height: 100%;
-    padding-top: 200px;
-    font-weight: 300;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  
-}
 
 .posts-section {
     font-family: 'Lato', sans-serif;
@@ -64,7 +55,6 @@ a:hover, a:active{
     padding-top: 50px;
     font-weight: 300;
     text-align: center;
-    background: white;
 }
 
 #navbar {
@@ -160,3 +150,15 @@ a.black:hover{
     font-size: 1.5em;
     margin-top: 5%;
 }
+
+#desc {
+    padding-top: 200px;
+}
+.about-section {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    padding-top: 150px;
+    font-weight: 300;
+    text-align: center;
+}
+
