@@ -125,7 +125,7 @@
        var speed = 50;
        var boxElement = document.getElementById("post");
         if (boxElement){
-            boxElement.addEventListener("click", function(){
+            boxElement.addEventListener("mouseover", function(){
                 var boxLeft = boxElement.offsetLeft, 
                     boxRight = boxLeft + boxElement.offsetWidth;
                 boxElement.style.left = (boxLeft + speed) + 'px';

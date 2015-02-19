@@ -76,32 +76,9 @@ a:hover, a:active{
     padding-top: 100px;
     width: 100%;
 }
-@media (max-width: 500px) {
-    #subtext {
-        display: none;
-    }
-    #icons {
-        margin-top: 10%;
-        margin-right: 17%;
-    }
-    #navbar {
-        display: none;
-    }
-    #name{
-    font-size: 30px;
-    font-weight: 400;
-    float:left;
-    margin-top: 0px;
-    height:50px;
-    color: #d94e4e;
-    margin-left: 14%;
-        
-    }
-}
-
 #subtext{
     font-family: 'Lato', sans-serif;
-    padding-top: 7%;
+    padding-top: 80px;
     font-weight: 300;
     width: 25%;
     font-size: 15px;
@@ -110,7 +87,7 @@ a:hover, a:active{
     float: left;
 }
 #icons{
-    padding-top: 7%;
+    padding-top: 80px;
     float:right;
     padding-right: 7%;
 }
@@ -183,4 +160,3 @@ a.black:hover{
     font-size: 1.5em;
     margin-top: 5%;
 }
-
