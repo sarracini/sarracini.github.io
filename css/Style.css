@@ -31,8 +31,6 @@ li{
     color: #d94e4e;
     display: inline-block;
 }
-
-
 #name{
     font-size: 30px;
     font-weight: 400;
@@ -41,7 +39,8 @@ li{
     height:50px;
     color: #d94e4e;
 }
-a, a:visited{
+a:link, a:visited{
+    text-decoration: none;
     color: #d94e4e;
 }
 a:hover, a:active{
@@ -59,6 +58,7 @@ a:hover, a:active{
 }
 
 .posts-section {
+    font-family: 'Lato', sans-serif;
     height: 100%;
     padding-top: 50px;
     font-weight: 300;
