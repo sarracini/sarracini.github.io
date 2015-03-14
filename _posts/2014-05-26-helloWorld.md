@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 title: Hello World
-date: 2014-08-26
+date: 2014-05-26
 categories: posts
 
 ---

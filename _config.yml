@@ -1,0 +1,10 @@
+name: Ursula Sarracini
+description: ""
+
+url: http://ursulasarracini.com
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true

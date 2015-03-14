@@ -67,14 +67,22 @@
             <section id="posts" class="posts-section">
 
                 <div class="padding"></div>
-         <h2>Hi! I'm currently undergoing a makeover (I know, so exciting) and will be back up and running in no time. In the meantime please feel free to take a look at my social media links listed above. See you soon!</h2>
-                
+              <ul>
+                    {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                    {% endfor %}    
+                </ul>
+                      
                 <a href="" class="page-scroll"><i class="fa fa-angle-double-down fa-4x"></i></a>
                 <a href="" class="page-scroll"><i class="fa fa-angle-double-up fa-4x"></i></a>
 
             </section>
             <!--/Posts-->
-            
+            <a href="">
+                <p id="older"><i class="fa fa-angle-double-left"></i> OLDER POSTS</p>
+            </a>
 
         </div>
         <!-- /container -->
