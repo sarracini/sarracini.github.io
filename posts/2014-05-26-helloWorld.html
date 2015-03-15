@@ -49,63 +49,64 @@
         </div>
     </nav>
 
-        <!--Posts-->
-        <div class="container">
-            <section id="posts" class="posts-section">
-                <div class="padding_less"></div>     
-                <div id="ind_post" >
-                     <h1> Hello, World!</h1>
-                     <p id="date">May 26, 2014</p>
-                    <p>Hi I’m Ursula, it’s nice to meet you. I’m in my third year at York University studying Computer Science. I specialize in building interactive augmented reality applications in Unity. This website is designed to showcase some of the cool stuff I’m working on, but will also be a place where I can talk about some of the interesting day to day things that I encounter.</p></div>
-              <!--  <a href="" class="page-scroll"><i class="fa fa-angle-double-down fa-4x"></i></a>
+    <!--Posts-->
+    <div class="container">
+        <section id="posts" class="posts-section">
+            <div class="padding_less"></div>
+            <div id="ind_post">
+                <h1> Hello, World!</h1>
+                <p id="date">May 26, 2014</p>
+                <p>Hi I’m Ursula, it’s nice to meet you. I’m in my third year at York University studying Computer Science. I specialize in building interactive augmented reality applications in Unity. This website is designed to showcase some of the cool stuff I’m working on, but will also be a place where I can talk about some of the interesting day to day things that I encounter.</p>
+            </div>
+            <!--  <a href="" class="page-scroll"><i class="fa fa-angle-double-down fa-4x"></i></a>
                 <a href="" class="page-scroll"><i class="fa fa-angle-double-up fa-4x"></i></a>-->
 
-            </section>
-            <!--/Posts-->
-            <a href="../index.html">
-                <p id="older"><i class="fa fa-angle-double-left" ></i> BACK </p>
-            </a>
+        </section>
+        <!--/Posts-->
+        <a href="../index.html">
+            <p id="older"><i class="fa fa-angle-double-left"></i> BACK </p>
+        </a>
 
-        </div>
-        <!-- /container -->
+    </div>
+    <!-- /container -->
 
 
-        <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../../assets/js/ie10-viewport-bug-workaround.js"></script>
-        <!-- Scrolling Nav JavaScript -->
-        <script src="../js/jquery.easing.min.js"></script>
-        <script src="../js/scrolling-nav.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
 
-        <!-- Custom Javascript by yours truly -->
-        <script>
-            $(document).ready(function () {
-                $(".fa-angle-double-up").hide();
-            });
-        </script>
-        <script>
-            $(function () {
-                $(document).on("mousewheel", function () {
-                    if ($(document).scrollTop() > 300) {
-                        $('.fa-angle-double-down').fadeOut();
-                        $('.fa-angle-double-up').fadeIn();
-                    } else {
-                        $('.fa-angle-double-down').fadeIn();
-                        $('.fa-angle-double-up').fadeOut();
-                    };
-                });
-            });
-        </script>
+    <!-- Custom Javascript by yours truly -->
     <script>
-       var speed = 50;
-       var boxElement = document.getElementById("post");
-        if (boxElement){
-            boxElement.addEventListener("click", function(){
-                var boxLeft = boxElement.offsetLeft, 
+        $(document).ready(function () {
+            $(".fa-angle-double-up").hide();
+        });
+    </script>
+    <script>
+        $(function () {
+            $(document).on("mousewheel", function () {
+                if ($(document).scrollTop() > 300) {
+                    $('.fa-angle-double-down').fadeOut();
+                    $('.fa-angle-double-up').fadeIn();
+                } else {
+                    $('.fa-angle-double-down').fadeIn();
+                    $('.fa-angle-double-up').fadeOut();
+                };
+            });
+        });
+    </script>
+    <script>
+        var speed = 50;
+        var boxElement = document.getElementById("post");
+        if (boxElement) {
+            boxElement.addEventListener("click", function () {
+                var boxLeft = boxElement.offsetLeft,
                     boxRight = boxLeft + boxElement.offsetWidth;
                 boxElement.style.left = (boxLeft + speed) + 'px';
             });
