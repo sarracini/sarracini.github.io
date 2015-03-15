@@ -239,7 +239,7 @@ a.black:hover, a.black_other:hover {
    margin-left:  55%;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: normal;
     text-align: left;
     
@@ -267,4 +267,7 @@ h1 {
     font-size: 0.8em;
     font-style: italic;
     color: #C2C2C2;
+}
+.fa-heart-o{
+    color:#d94e4e;
 }

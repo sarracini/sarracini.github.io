@@ -152,6 +152,7 @@ a.black:hover{
 }
 
 #desc {
+    font-size: 0.3em;
     padding-top: 200px;
 }
 .about-section {
