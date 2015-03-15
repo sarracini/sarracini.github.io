@@ -42,7 +42,7 @@
                 </li>
                 <li><a href="#">PROJECTS</a>
                 </li>
-                <li><a href="#">CONTACT</a>
+                <li><a href="../contact.html">CONTACT</a>
                 </li>
             </ul>
             <img src="../images/line.png" height="1px" width="100%" style="float:left">
@@ -82,36 +82,6 @@
         <script src="../js/jquery.easing.min.js"></script>
         <script src="../js/scrolling-nav.js"></script>
 
-        <!-- Custom Javascript by yours truly -->
-        <script>
-            $(document).ready(function () {
-                $(".fa-angle-double-up").hide();
-            });
-        </script>
-        <script>
-            $(function () {
-                $(document).on("mousewheel", function () {
-                    if ($(document).scrollTop() > 300) {
-                        $('.fa-angle-double-down').fadeOut();
-                        $('.fa-angle-double-up').fadeIn();
-                    } else {
-                        $('.fa-angle-double-down').fadeIn();
-                        $('.fa-angle-double-up').fadeOut();
-                    };
-                });
-            });
-        </script>
-        <script>
-            var speed = 50;
-            var boxElement = document.getElementById("post");
-            if (boxElement) {
-                boxElement.addEventListener("click", function () {
-                    var boxLeft = boxElement.offsetLeft,
-                        boxRight = boxLeft + boxElement.offsetWidth;
-                    boxElement.style.left = (boxLeft + speed) + 'px';
-                });
-            }
-        </script>
 
 </body>
 
