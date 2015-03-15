@@ -32,6 +32,15 @@ li {
     display: inline-block;
 }
 
+#archieve {
+    font-weight: 300;
+    list-style: none;
+    text-align: left;
+    color: #3d3c40;
+    display: list-item;
+}
+
+
 #name {
     font-size: 30px;
     font-weight: 400;
@@ -177,7 +186,13 @@ a:active {
     left: 50%;
     right: 50%;
 }
-
+#little_post{
+    border: 1px solid;
+    height: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
 .padding {
     margin-top: 200px;
 }
@@ -189,14 +204,24 @@ a.black {
     margin-left: auto;
     margin-right: auto;
 }
+a.black_other {
+    color: #3d3c40;
+    width: 30%;
+    display: block;
+}
 
-a.black:hover {
+a.black:hover, a.black_other:hover {
     color: #BF788B;
 }
 
 #older {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+}
+#newer {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    float: right;
 }
 
 #title {
