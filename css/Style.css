@@ -129,6 +129,11 @@ a:active {
     float: right;
     padding-right: 7%;
 }
+#icons_sub {
+    margin-top: 5%;
+    font-size: 0.8em;
+    float: left;
+}
 
 .fa-github-square,
 .fa-twitter-square,
@@ -229,6 +234,15 @@ a.black:hover, a.black_other:hover {
     font-weight: 300;
     font-size: 1.5em;
     margin-top: 5%;
+}
+#desc {
+   margin-left:  55%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: normal;
+    text-align: left;
+    
 }
 
 #ind_post {
