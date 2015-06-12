@@ -126,7 +126,7 @@
         </script>
         <script>
             $(function () {
-                $(document).on("mousewheel", function () {
+                $(document).on("wheel", function () {
                     if ($(document).scrollTop() > 300) {
                         $('.fa-angle-double-down').fadeOut();
                         $('.fa-angle-double-up').fadeIn();
@@ -136,17 +136,6 @@
                     };
                 });
             });
-        </script>
-        <script>
-            var speed = 50;
-            var boxElement = document.getElementById("post");
-            if (boxElement) {
-                boxElement.addEventListener("click", function () {
-                    var boxLeft = boxElement.offsetLeft,
-                        boxRight = boxLeft + boxElement.offsetWidth;
-                    boxElement.style.left = (boxLeft + speed) + 'px';
-                });
-            }
         </script>
         <script>
             (function (i, s, o, g, r, a, m) {
