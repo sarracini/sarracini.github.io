@@ -186,6 +186,7 @@ a:active {
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
+    font-size: 0.6em;
 }
 .padding {
     margin-top: 200px;
@@ -200,7 +201,7 @@ a.black {
 }
 a.black_other {
     color: #3d3c40;
-    width: 30%;
+    width: 100%;
     display: block;
 }
 
@@ -216,6 +217,7 @@ a.black:hover, a.black_other:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     float: right;
+    margin-top: 380px;
 }
 
 #title {
