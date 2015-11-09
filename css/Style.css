@@ -113,12 +113,6 @@ a:active {
 #icons {
     padding-top: 7%;
     float: right;
-    padding-right: 7%;
-}
-#icons_sub {
-    margin-top: 5%;
-    font-size: 0.8em;
-    float: left;
 }
 
 .fa-github-square,
@@ -180,6 +174,7 @@ a:active {
     left: 50%;
     right: 50%;
 }
+
 #little_post{
     border: 1px solid;
     height: 50px;
@@ -188,6 +183,7 @@ a:active {
     text-align: center;
     font-size: 0.6em;
 }
+
 .padding {
     margin-top: 200px;
 }
@@ -213,6 +209,7 @@ a.black:hover, a.black_other:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
+
 #newer {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -226,6 +223,7 @@ a.black:hover, a.black_other:hover {
     font-size: 1.5em;
     margin-top: 5%;
 }
+
 #desc {
    margin-left:  55%;
     font-family: 'Lato', sans-serif;

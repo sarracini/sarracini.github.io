@@ -49,91 +49,92 @@
         </div>
     </nav>
 
+
+
+    <!--Posts-->
+    <div class="container">
         <div id="icons">
             <a href="https://twitter.com/ursulasarracini"><i class="fa fa-twitter-square fa-3x"></i></a>
             <a href="https://github.com/sarracini"><i class="fa fa-github-square fa-3x"></i></a>
             <a href="https://ca.linkedin.com/pub/ursula-sarracini/a3/b45/405/en"><i class="fa fa-linkedin-square fa-3x"></i></a>
             <a href="mailto:ursulasarracini@gmail.com"><i class="fa fa-envelope-square fa-3x"></i></a>
         </div>
-
-        <!--Posts-->
-        <div class="container">
-                    <div id="subtext">
+        <div id="subtext">
             <p> <i class="fa fa-terminal"></i> &nbsp;Sometimes I write code that does cool things. I build interactive applications and do headstands in my spare time.</p>
         </div>
-            <section id="posts" class="posts-section">
+        <section id="posts" class="posts-section">
 
-                <div class="padding"></div>
-              <!--  <a class="black" href="posts/2015-07-18-HuntingDownAHiesenbug-prt1.html">
+            <div class="padding"></div>
+            <!--  <a class="black" href="posts/2015-07-18-HuntingDownAHiesenbug-prt1.html">
                     <div id="post">
                         <p id="title"> Hunting Down a Hiesenbug - Part 1 of 2 - July 18 2015</p>
                     </div>
                 </a>-->
-                <a class="black" href="posts/2015-01-06-AutoCadToOculus.html">
-                    <div id="post">
-                        <p id="title"> From AutoCAD to Oculus - January 06 2015</p>
-                    </div>
-                </a>
-                <a class="black" href="posts/2014-12-02-BasicsofCodeWorkshop.html">
-                    <div id="post">
-                        <p id="title"> Basics of Code Workshop - December 02 2014</p>
-                    </div>
-                </a>
-                <a class="black" href="posts/2014-08-26-SanFran.html">
-                    <div id="post">
-                        <p id="title"> San Francisco, CA - August 26 2014</p>
-                    </div>
-                </a>
-                <a class="black" href="posts/2014-05-26-helloWorld.html">
-                    <div id="post">
-                        <p id="title"> Hello, World! - August 26 2014</p>
-                    </div>
-                </a>
+            <a class="black" href="posts/2015-01-06-AutoCadToOculus.html">
+                <div id="post">
+                    <p id="title"> From AutoCAD to Oculus - January 06 2015</p>
+                </div>
+            </a>
+            <a class="black" href="posts/2014-12-02-BasicsofCodeWorkshop.html">
+                <div id="post">
+                    <p id="title"> Basics of Code Workshop - December 02 2014</p>
+                </div>
+            </a>
+            <a class="black" href="posts/2014-08-26-SanFran.html">
+                <div id="post">
+                    <p id="title"> San Francisco, CA - August 26 2014</p>
+                </div>
+            </a>
+            <a class="black" href="posts/2014-05-26-helloWorld.html">
+                <div id="post">
+                    <p id="title"> Hello, World! - August 26 2014</p>
+                </div>
+            </a>
 
-                <a href="#bottom" class="page-scroll"><i class="fa fa-angle-double-down fa-4x"></i></a>
-                <a href="#subtext" class="page-scroll"><i class="fa fa-angle-double-up fa-4x"></i></a>
+            <a href="#bottom" class="page-scroll"><i class="fa fa-angle-double-down fa-4x"></i></a>
+            <a href="#subtext" class="page-scroll"><i class="fa fa-angle-double-up fa-4x"></i></a>
 
-            </section>
-            <!--/Posts-->
-            <section id="bottom">
-                <a href="older_posts.html">
-                    <p id="older"><i class="fa fa-angle-double-left"></i> OLDER POSTS</p>
-                </a>
-            </section>
-        </div>
-        <!-- /container -->
+        </section>
+        <!--/Posts-->
+        <section id="bottom">
+            <a href="older_posts.html">
+                <p id="older"><i class="fa fa-angle-double-left"></i> OLDER POSTS</p>
+            </a>
+        </section>
+    </div>
+    <!-- /container -->
 
 
-        <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-        <!-- Scrolling Nav JavaScript -->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrolling-nav.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
-        <!-- Custom Javascript by yours truly -->
-        <script>
-            $(document).ready(function () {
-                $(".fa-angle-double-up").hide();
+    <!-- Custom Javascript by yours truly -->
+    <script>
+        $(document).ready(function () {
+            $(".fa-angle-double-up").hide();
+        });
+    </script>
+    <script>
+        $(function () {
+            $(document).on("wheel", function () {
+                if ($(document).scrollTop() > 200) {
+                    $('.fa-angle-double-down').fadeOut();
+                    $('.fa-angle-double-up').fadeIn();
+                } else {
+                    $('.fa-angle-double-down').fadeIn();
+                    $('.fa-angle-double-up').fadeOut();
+                };
             });
-        </script>
-        <script>
-            $(function () {
-                $(document).on("wheel", function () {
-                    if ($(document).scrollTop() > 200) {
-                        $('.fa-angle-double-down').fadeOut();
-                        $('.fa-angle-double-up').fadeIn();
-                    } else {
-                        $('.fa-angle-double-down').fadeIn();
-                        $('.fa-angle-double-up').fadeOut();
-                    };
-                });
-            });
-        </script>
+        });
+    </script>
 </body>
 
 </html>
