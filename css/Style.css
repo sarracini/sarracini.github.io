@@ -1,58 +1,46 @@
-body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-}
-
 html {
     width: 100%;
     height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        transition: background .5s ease-in-out, padding .5s ease-in-out;
-        background-color: white;
-    }
-    .top-nav-collapse {
-        padding: 15px;
-    }
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 0;
 }
 
-li {
-    padding-right: 50px;
-    font-size: 20px;
-    font-weight: 700;
-    list-style: none;
-    text-align: right;
-    color: #d94e4e;
-    display: inline-block;
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#post_list{
-    padding: 0;
-    text-align: left;
-    color: #3d3c40;
-    list-style: disc;
-    display: inline-block;
+.navbar {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: white;
 }
 
-#archieve {
-    font-weight: 300;
-    list-style: none;
-    text-align: left;
-    color: #3d3c40;
-    display: list-item;
+.line {
+    float: left;
+    border-bottom: 1px solid;
+    width: 100%;
+    border-top: none;
 }
-
 
 #name {
     font-size: 30px;
     font-weight: 400;
-    float: left;
     margin-top: -10px;
     height: 50px;
     color: #d94e4e;
@@ -68,59 +56,6 @@ a:hover,
 a:active {
     text-decoration: none;
     color: #BF788B;
-}
-
-.posts-section {
-    font-family: 'Lato', sans-serif;
-    height: 100%;
-    padding-top: 50px;
-    font-weight: 300;
-    text-align: center;
-    background: white;
-}
-
-#navbar {
-    margin-right: -50px;
-    float: right;
-    color: #d94e4e;
-}
-
-@media (max-width: 500px) {
-    #subtext {
-        display: none;
-    }
-    #icons {
-        margin-top: 10%;
-        margin-right: 17%;
-    }
-    #navbar {
-        display: none;
-    }
-    #name {
-        font-size: 30px;
-        font-weight: 400;
-        float: left;
-        margin-top: 0px;
-        height: 50px;
-        color: #d94e4e;
-        margin-left: 14%;
-    }
-}
-
-#subtext {
-    font-family: 'Lato', sans-serif;
-    padding-top: 7%;
-    font-weight: 300;
-    width: 25%;
-    font-size: 15px;
-    line-height: 15px;
-    color: #3d3c40;
-    float: left;
-}
-
-#icons {
-    padding-top: 7%;
-    float: right;
 }
 
 .fa-github-square,
@@ -148,90 +83,6 @@ a:active {
     color: #BF788B;
 }
 
-.fa-angle-double-down:hover {
-    color: #BF788B;
-}
-
-.fa-angle-double-up:hover {
-    color: #BF788B;
-}
-
-.fa-angle-double-down {
-    right: 5%;
-    bottom: 5%;
-    position: fixed;
-    color: #3d3c40;
-}
-
-.fa-angle-double-up {
-    right: 5%;
-    bottom: 5%;
-    position: fixed;
-    color: #3d3c40;
-    display: none;
-}
-.fa-heart-o{
-    color:#d94e4e;
-}
-
-#post {
-    border: 2px solid;
-    height: 120px;
-    margin-bottom: 20px;
-    width: 100%;
-    left: 50%;
-    right: 50%;
-}
-
-#little_post{
-    border: 1px solid;
-    height: 50px;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-    font-size: 0.6em;
-}
-
-.padding {
-    margin-top: 200px;
-}
-
-a.black {
-    color: #3d3c40;
-    display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-a.black_other {
-    color: #3d3c40;
-    width: 100%;
-    display: block;
-}
-
-a.black:hover, a.black_other:hover {
-    color: #BF788B;
-}
-
-#older {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-
-#newer {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    float: right;
-    margin-top: 380px;
-}
-
-#title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 1.5em;
-    margin-top: 5%;
-}
-
 #desc {
    margin-left:  55%;
     font-family: 'Lato', sans-serif;
@@ -242,26 +93,10 @@ a.black:hover, a.black_other:hover {
     
 }
 
-#ind_post {
-    text-align: left;
-    font-size: 1.3em;
-    color: #3d3c40;
-    display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1 {
-    text-align: left;
-}
-
-.padding_less {
+.small_padding {
     margin-top: 120px;
 }
 
-#date {
-    font-size: 0.8em;
-    font-style: italic;
-    color: #C2C2C2;
+.small_padding_bottom {
+    margin-top: 40px;
 }
