@@ -13,21 +13,17 @@ body {
 
 .container {
     width: 1170px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0 15px 0 15px;
+    margin: auto;
 }
 
 .navbar {
     width: 1170px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     top: 0;
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 1030;
     background: white;
 }
 
@@ -63,34 +59,23 @@ a:active {
 .fa-linkedin-square,
 .fa-envelope-square {
     color: #3d3c40;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px 0 5px;
 }
 
-.fa-github-square:hover {
-    color: #BF788B;
-}
-
-.fa-twitter-square:hover {
-    color: #BF788B;
-}
-
-.fa-linkedin-square:hover {
-    color: #BF788B;
-}
-
+.fa-github-square:hover,
+.fa-twitter-square:hover,
+.fa-linkedin-square:hover,
 .fa-envelope-square:hover {
     color: #BF788B;
 }
 
 #desc {
-   margin-left:  55%;
+    margin-left:  55%;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1.3em;
     line-height: normal;
     text-align: left;
-    
 }
 
 .small_padding {
